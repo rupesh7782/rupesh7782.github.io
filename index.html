@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Silkscreen&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* ============================================================
            ROOT & THEME
@@ -331,14 +331,14 @@
             white-space: nowrap; 
             overflow: hidden; 
             width: 0;
-            animation: typing 1s steps(6, end) 2.2s forwards;
+            animation: typing 0.8s steps(6, end) 0.5s forwards;
         }
         #typewriter-name-2 {
             display: inline-block;
             white-space: nowrap; 
             overflow: hidden; 
             width: 0;
-            animation: typing 1s steps(6, end) 2.2s forwards;
+            animation: typing 0.8s steps(6, end) 1.3s forwards;
         }
         #typewriter-role {
             display: inline-block;
@@ -649,6 +649,10 @@
             .freelance-badge { position: relative; right: auto; bottom: auto; margin-top: 1rem; }
             #theme-toggle, #back-to-top { right: 1rem; }
         }
+        img.cert-icon {
+        vertical-align: middle;
+        object-fit: contain;
+}
     </style>
 </head>
 <body>
@@ -814,21 +818,41 @@
         <section id="certifications" class="certs-section animate-on-scroll">
             <div class="pixel-font section-title">CERTIFICATIONS <span class="pulse-dot"></span></div>
             <div class="certs-grid">
+
                 <div class="cert-card">
-                    <i class="fa-solid fa-award cert-icon"></i>
-                    <div class="cert-info"><h4>PostgreSQL Essential Training</h4><p>(LinkedIn Learning)</p></div>
+                    <!-- Replaced the <i> tag with the Coursera SVG image, keeping your cert-icon class -->
+                    <img src="https://cdn.simpleicons.org/coursera/0056D2" alt="Coursera" class="cert-icon" width="30" height="30">
+                    <div class="cert-info"><h4>Google AI Essentials</h4><p>Coursera</p></div>
                 </div>
+
                 <div class="cert-card">
-                    <i class="fa-solid fa-rocket cert-icon" style="color:#FF6C37;"></i>
+                    <i class="fa-brands fa-aws" style="font-size: 2rem; color: #FF9900;"></i>
+                    <div class="cert-info"><h4>AWS-Introduction to Generative AI</h4><p>AWS</p></div>
+                </div>    
+
+                <div class="cert-card">
+                    <i class="fa-brands fa-aws" style="font-size: 2rem; color: #FF9900;"></i>
+                    <div class="cert-info"><h4>AWS Technical Essentials</h4><p>AWS</p></div>
+                </div> 
+
+                <div class="cert-card">
+                    <img src="postman.png" alt="Postman" class="cert-icon" style="height: 40px; width: auto; margin-right: 15px; object-fit: contain;">
                     <div class="cert-info"><h4>Postman API Fundamentals Student Expert</h4></div>
                 </div>
+
                 <div class="cert-card">
-                    <div class="pixel-font" style="font-size:1.5rem; margin-right:10px;">IIT<br><span style="font-size:0.5rem">BOMBAY</span></div>
-                    <div class="cert-info"><h4>Python for Data Science</h4><p>IIT Bombay (NPTEL)</p></div>
+                    <img src="spoken.png" alt="Spoken Tutorial IIT Bombay" class="cert-icon" style="height: 40px; width: auto; margin-right: 15px; object-fit: contain;">
+                    <div class="cert-info"><h4>RDBMS-PostgreSQL Essential Training</h4><p>Spoken Tutorial</p></div>
                 </div>
+
                 <div class="cert-card">
-                    <div class="pixel-font" style="font-size:1.5rem; margin-right:10px;">IIT<br><span style="font-size:0.5rem">BOMBAY</span></div>
-                    <div class="cert-info"><h4>Database Management System</h4><p>IIT Bombay (NPTEL)</p></div>
+                    <img src="spoken.png" alt="Spoken Tutorial IIT Bombay" class="cert-icon" style="height: 40px; width: auto; margin-right: 15px; object-fit: contain;">
+                    <div class="cert-info"><h4>Python</h4><p>Spoken Tutorial</p></div>
+                </div>
+              
+                <div class="cert-card">
+                    <img src="spoken.png" alt="Spoken Tutorial IIT Bombay" class="cert-icon" style="height: 40px; width: auto; margin-right: 15px; object-fit: contain;">
+                    <div class="cert-info"><h4>Latex</h4><p>Spoken Tutorial</p></div>
                 </div>
             </div>
         </section>
